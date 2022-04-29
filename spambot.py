@@ -11,7 +11,7 @@ while count != 0:
     time.sleep(1)
     count -= 1
 
-print("Spam has end!!!")
-
 for i in range(0, int(n)):
     pyautogui.typewrite(msg + "\n")
+
+    print("Spam has end!!!")
